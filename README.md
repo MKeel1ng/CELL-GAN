@@ -19,3 +19,6 @@ resblocks=True #adds skip connections
 self_attention=True #adds a self attention layer. location can be controlled in **get_generator_model** and **get_discriminator_model** with the **self_attention_layer** parameter
 base_filters=64 #depends on memory
 
+
+adapted from: **https://keras.io/examples/generative/wgan_gp/**
+

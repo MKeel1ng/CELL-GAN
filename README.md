@@ -2,13 +2,13 @@
 This is a project to create plausible cell fluorescence images using a generative adversarial network (GAN).
 
 ## DATA:
-cell images of any size can be used, the code prepares data by flipping and resizing to the desired size. The whole dat set is saved as a numpy array to accelerate training
+cell images of any size can be used, the code prepares data by flipping and resizing to the desired size. The whole data set is saved as a numpy array to accelerate training
 
 ## TRAINING:
 
 recommended settings:
 
-activation='LeakyReLU' #The final activation in the generator will be a LeakyReLU, with the data scaled between 0 and 1. This seems to work better in acheiving the uniform dark background. set activation='tanh' for a traditional approach
+activation='LeakyReLU' #The final activation in the generator will be a LeakyReLU, with the data scaled between 0 and 1. This seems to work better in achieving the uniform dark background. set activation='tanh' for a traditional approach
 
 epochs = 500 #depends on dataset size
 
